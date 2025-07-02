@@ -1,3 +1,5 @@
+package oops;
+
 class Person {
     // Private data members
     private String name;
