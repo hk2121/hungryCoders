@@ -51,7 +51,6 @@ class Dog2 extends Animal2 implements Pet {
     }
 }
 
-
 public class AbstractVSInterfaceExample {
     public static void main(String[] args) {
         Dog2 myDog2 = new Dog2("Buddy");
