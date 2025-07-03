@@ -1,4 +1,6 @@
-// StaticExample class with a static variable and method
+package oops;
+
+// oops.StaticExample class with a static variable and method
  class StaticExample {
     // Static variable
     static int staticVariable = 10;
@@ -9,21 +11,21 @@
     }
 }
 
-// AbstractExample abstract class with an abstract method
+// oops.AbstractExample abstract class with an abstract method
 abstract class AbstractExample {
     // Abstract method (no implementation)
     abstract void abstractMethod();
 }
 
-// Concrete subclass of AbstractExample
+// Concrete subclass of oops.AbstractExample
 class ConcreteExample extends AbstractExample {
     // Implementation of abstract method
     void abstractMethod() {
-        System.out.println("Inside abstractMethod in ConcreteExample");
+        System.out.println("Inside abstractMethod in oops.ConcreteExample");
     }
 }
 
-// FinalExample class with final variable and method
+// oops.FinalExample class with final variable and method
 class FinalExample {
     // Final variable
     final int finalVariable = 20;
@@ -40,11 +42,11 @@ class FinalExample {
         System.out.println("Static variable: " + StaticExample.staticVariable);
         StaticExample.staticMethod();
 
-        // Creating an instance of ConcreteExample and calling abstractMethod
+        // Creating an instance of oops.ConcreteExample and calling abstractMethod
         ConcreteExample concrete = new ConcreteExample();
         concrete.abstractMethod();
 
-        // Creating an instance of FinalExample and accessing final variable and method
+        // Creating an instance of oops.FinalExample and accessing final variable and method
         FinalExample finalExample = new FinalExample();
         System.out.println("Final variable: " + finalExample.finalVariable);
         finalExample.finalMethod();
@@ -55,6 +57,6 @@ class FinalExample {
 /*
 Static variable: 10
         Inside staticMethod: staticVariable = 10
-        Inside abstractMethod in ConcreteExample
+        Inside abstractMethod in oops.ConcreteExample
         Final variable: 20
         Inside finalMethod: finalVariable = 20*/

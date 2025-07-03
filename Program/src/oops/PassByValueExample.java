@@ -1,3 +1,5 @@
+package oops;
+
 public class PassByValueExample {
     public static void main(String[] args) {
         int num = 10;

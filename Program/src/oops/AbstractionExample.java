@@ -1,4 +1,6 @@
-//Think of an ATM machine.
+package oops;
+
+//Think of an oops.ATM machine.
 // You interact with it to withdraw money,
 // check your balance, etc.,
 // without needing to know how it processes

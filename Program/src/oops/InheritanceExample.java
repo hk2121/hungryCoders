@@ -1,3 +1,5 @@
+package oops;
+
 //Think of an animal family.
 // Dogs and cats both inherit general
 // animal characteristics but also
@@ -18,7 +20,7 @@ public class InheritanceExample {
     public static void main(String[] args) {
         Dog dog = new Dog();
         dog.eat(); // inherited method
-        dog.bark(); // specific to Dog class
+        dog.bark(); // specific to oops.Dog class
     }
 }
 
