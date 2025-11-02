@@ -1,5 +1,4 @@
 package multithreadingandconcurrency;
-
 public class DaemonThreadExample {
     public static void main(String[] args) {
         Thread daemonThread = new Thread(() -> {

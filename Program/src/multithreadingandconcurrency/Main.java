@@ -4,8 +4,10 @@ package multithreadingandconcurrency;
 class MyThread extends Thread{
 public void run(){
     // Code to be executed by the thread
-    System.out.println("Thread running: " + Thread.currentThread().getName());
-}
+//    for(int i = 1; i<=5;i++){
+        System.out.println("Thread running: " + Thread.currentThread().getName());
+
+    }
 }
 
 public class Main {

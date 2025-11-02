@@ -4,6 +4,7 @@ package multithreadingandconcurrency;
 class MyRunnable implements Runnable{
     public void run(){
         // Code to be executed by the thread
+//        System.out.println("Thread running: " + Thread.currentThread().getState());
         System.out.println("Thread running: " + Thread.currentThread().getName());
     }
 }
